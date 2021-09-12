@@ -8,10 +8,10 @@
 
 // Patrick Feeney => P.F
 
-const abbrevName = (name) {
-    let arr = name.split(' ')
+const abbrevName = (x) => {
+  let arr = x.split(" ");
 
-    let finalArr = arr.map((item)=> item[0])
+  let finalArr = arr.map((item) => item[0]);
 
-    return finalArr.join('.').toUpperCase()
-}
+  return finalArr.join(".").toUpperCase();
+};
